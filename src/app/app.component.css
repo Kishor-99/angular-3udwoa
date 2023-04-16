@@ -1,0 +1,61 @@
+/* Set default font and color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+/* Style the table cells */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Style the booked seats */
+td.booked {
+  background-color: #ccc;
+  cursor: default;
+}
+
+/* Style the selected seats */
+td.selected {
+  background-color: #ffcc00;
+}
+
+/* Style the available seats */
+td.available {
+  background-color: #fff;
+}
+
+/* Style the header */
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* Style the button */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the button on hover */
+button:hover {
+  background-color: #3e8e41;
+}
+
